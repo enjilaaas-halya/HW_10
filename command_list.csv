@@ -1,0 +1,67 @@
+    1  git push
+    2  touch main_test.txt
+    3  git add
+    4  git commit -m "main_test.txt" 
+    5  git chechout -b develop
+    6  touch devtlop_text.txt
+    7  git add
+    8  git commit -m "develop_test.txt"
+    9  git add develop_test.txt
+   10  git commit -m "develop_test.txt"
+   11  echo "change" >>develop_test.txt
+   12  git status
+   13  git add
+   14  git add .
+   15  git commit - m "chsnge"
+   16  git commit - m "change"
+   17  git commit -m "change"
+   18  git chechout main
+   19  git merge develop
+   20  git log 
+   21  git push
+   22  git status
+   23  git add .gitignore
+   24  git commit
+   25  cd
+   26  cd HW_10
+   27  nano .gitignore
+   28  cd git
+   29  cd git
+   30  git config --global user.name "Halya Artysh"
+   31  git config --global user.email "enjilaaas@gmail.com"
+   32  git clone https://github.com/enjilaaas-halya/HW_10.git
+   33  cd git
+   34  rdmr/s/q.git
+   35  rmdir/s/q git
+   36  rmdir /s/q.git
+   37  cd git
+   38  git config --global user.name "Halya Artysh"
+   39  git config --global user.email enjilaaas@gmail.com
+   40  git clone https://github.com/enjilaaas-halya/HW_10.git
+   41  cd HW_10
+   42  git status
+   43  touch text_ignore.txt
+   44  nano .gitignore
+   45  git status
+   46  git add
+   47  git add .
+   48  git commit -m "Додано text_ignore.txt у .gitignore"
+   49  touch main_test.txt
+   50  git add .
+   51  git commit -m "Додано порожній файл main_test.txt"
+   52  git chechout -b develop 
+   53   git checkout -b develop
+   54  touch develop_test.txt
+   55  git commit -m "Додано порожній файл develop_test.txt"
+   56  git add .
+   57  git commit - -m "Додано порожній файл develop_test.txt"
+   58  git status
+   59  git add .
+   60  echo "just a small change">>develop_test.txt file
+   61  git status
+   62  git add .
+   63  git commit - -m "Додано рядок у develop_test.txt"
+   64  git checkout main
+   65  git merge develop
+   66  git log
+   67  history>command_list.csv
